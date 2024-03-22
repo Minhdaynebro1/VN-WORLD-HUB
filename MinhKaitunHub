@@ -47,6 +47,7 @@ _G.Settings = {
 			Spirit-Spirit
 			Dragon-Dragon
 			Leopard-Leopard
+                        kitsune-kitsune
 		]]
 
     SelectRedeemCodeLevel = 1,
@@ -90,11 +91,15 @@ _G.Settings = {
     
     -- CPU
 
-    LockFPS = 120,
-    LockFPSNow = true,
-    WhiteScreen = true
+    LockFPS = 60,
+    LockFPSNow = false,
+    WhiteScreen = false,
  
   },
 
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207/SilverHub/main/Kaitun2"))()
+-- If you have more than 1 key, select only 1.
+_G.Key = "LuxuryV2_yoeub308j9soyedc0qc5"
+
+_G.DiscordId = "928369950761041990"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/mainpack.lua"))();
