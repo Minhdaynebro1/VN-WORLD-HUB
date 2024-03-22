@@ -11,7 +11,7 @@
                  _G.KaitanMode = true
 shared.Team = "Pirates"
 getgenv().Configs = {
-    FpsBoost = true,
+    FpsBoost = false,
     AutoFarmLevel = true,
     SkipFarm = true,
     HopIfCantKill = true,
@@ -104,8 +104,8 @@ getgenv().Configs = {
     -- CPU
 
     LockFPS = 120,
-    LockFPSNow = true,
-    WhiteScreen = true
+    LockFPSNow = false,
+    WhiteScreen = false,
 }
 -- If you have more than 1 key, select only 1.
 _G.Key = "LuxuryV2_yoeub308j9soyedc0qc5"
