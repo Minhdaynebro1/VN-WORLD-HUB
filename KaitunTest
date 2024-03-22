@@ -8,10 +8,11 @@
           \_Welcome to KnightsRoblox.site   (Alpha 0.2.6) ~  Chúc Bạn, Vui Vẻ 
 
 ]]--
-                 _G.KaitanMode = true
+                
+_G.KaitanMode = true
 shared.Team = "Pirates"
 getgenv().Configs = {
-    FpsBoost = false,
+    FpsBoost = true,
     AutoFarmLevel = true,
     SkipFarm = true,
     HopIfCantKill = true,
@@ -65,7 +66,7 @@ getgenv().Configs = {
     AutoElectricClaw = true,
     AutoDargonTalon = true,
 
-    AutoDFMastery = true,
+    AutoDFMastery = false,
     SettingsSkill = { -- ถ้าไม่ใส่จะใช้ mode auto
         -- ["Z"] = 0.1,
         -- ["X"] = 0.1,
@@ -80,7 +81,7 @@ getgenv().Configs = {
     -- Raids
 
     SelectRateFruitRaid = 5000000, -- if fruit price less u rate then we use it to auto raids
-    LimitFragmentsRaids = 50000,
+    LimitFragmentsRaids = 100000,
 
     -- Devil Fruit
 
@@ -103,9 +104,9 @@ getgenv().Configs = {
 
     -- CPU
 
-    LockFPS = 120,
+    LockFPS = 60,
     LockFPSNow = false,
-    WhiteScreen = false,
+    WhiteScreen = true,
 }
 -- If you have more than 1 key, select only 1.
 _G.Key = "LuxuryV2_yoeub308j9soyedc0qc5"
