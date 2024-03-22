@@ -3,7 +3,7 @@ shared.Team = "Pirates"
 getgenv().Configs = {
     FpsBoost = true,
     SkipFarm = true,
-    AutoFarm = true ,
+    AutoFarm = true,
     HopIfCantKill = true,
     BlockAllHop = false,
 
@@ -97,8 +97,7 @@ getgenv().Configs = {
     LockFPSNow = true,
     WhiteScreen = true
 }
--- If you have more than 1 key, select only 1.
-_G.Key = "LuxuryV2_yoeub308j9soyedc0qc5"
-
-_G.DiscordId = "928369950761041990"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/mainpack.lua"))();
+getgenv().Key = "MARU-FPCDB-J2QS-L5APG-MC30-8641E"
+getgenv().id = "928369950761041990"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
